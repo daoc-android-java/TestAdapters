@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/diego/GitHub/Android/TestAdapters/app/build/intermediates/res/merged/debug/layout/activity_list.xml",
+        "source": "/home/diego/GitHub/Android/TestAdapters/app/src/main/res/layout/activity_list.xml"
+    },
+    {
+        "merged": "/home/diego/GitHub/Android/TestAdapters/app/build/intermediates/res/merged/debug/layout/textview_adaptador.xml",
+        "source": "/home/diego/GitHub/Android/TestAdapters/app/src/main/res/layout/textview_adaptador.xml"
+    },
+    {
+        "merged": "/home/diego/GitHub/Android/TestAdapters/app/build/intermediates/res/merged/debug/layout/activity_grid.xml",
+        "source": "/home/diego/GitHub/Android/TestAdapters/app/src/main/res/layout/activity_grid.xml"
+    },
+    {
+        "merged": "/home/diego/GitHub/Android/TestAdapters/app/build/intermediates/res/merged/debug/layout/imgview_adaptador.xml",
+        "source": "/home/diego/GitHub/Android/TestAdapters/app/src/main/res/layout/imgview_adaptador.xml"
+    },
+    {
+        "merged": "/home/diego/GitHub/Android/TestAdapters/app/build/intermediates/res/merged/debug/layout/activity_spinner.xml",
+        "source": "/home/diego/GitHub/Android/TestAdapters/app/src/main/res/layout/activity_spinner.xml"
+    }
+]

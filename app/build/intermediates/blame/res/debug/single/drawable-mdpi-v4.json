@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/diego/GitHub/Android/TestAdapters/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/home/diego/GitHub/Android/TestAdapters/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/diego/GitHub/Android/TestAdapters/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/apple.png",
+        "source": "/home/diego/GitHub/Android/TestAdapters/app/src/main/res/drawable-mdpi/apple.png"
+    },
+    {
+        "merged": "/home/diego/GitHub/Android/TestAdapters/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/banana.png",
+        "source": "/home/diego/GitHub/Android/TestAdapters/app/src/main/res/drawable-mdpi/banana.png"
+    }
+]
