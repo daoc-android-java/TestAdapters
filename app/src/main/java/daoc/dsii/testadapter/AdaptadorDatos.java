@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class AdaptadorDatos extends ArrayAdapter<Drawable> {
@@ -27,8 +28,8 @@ public class AdaptadorDatos extends ArrayAdapter<Drawable> {
 			LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 			convertView = inflater.inflate(resource, null);			
 		}
-		TextView tv = (TextView) convertView;
-		tv.setCompoundDrawablesWithIntrinsicBounds(objects[position], null, null, null);
+		ImageView iv = (ImageView) convertView;
+		iv.setImageDrawable(objects[position]);
 		return convertView;
 	}
 	

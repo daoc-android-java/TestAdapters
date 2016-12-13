@@ -22,11 +22,12 @@ public final class R {
     public static final class id {
         public static final int LinearLayout1=0x7f080000;
         public static final int b=0x7f080002;
-        public static final int brow=0x7f080007;
-        public static final int calc=0x7f080006;
+        public static final int brow=0x7f080008;
+        public static final int calc=0x7f080007;
         public static final int gv=0x7f080003;
+        public static final int iv=0x7f080006;
         public static final int lv=0x7f080004;
-        public static final int music=0x7f080008;
+        public static final int music=0x7f080009;
         public static final int sv=0x7f080005;
         public static final int tv=0x7f080001;
     }
