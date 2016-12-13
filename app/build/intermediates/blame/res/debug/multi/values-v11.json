@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/diego/GitHub/Android/TestAdapters/app/build/intermediates/res/merged/debug/values-v11/values-v11.xml",
+        "outputFile": "C:\\Users\\dordonez\\GitHub\\Android\\TestAdapters\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "/home/diego/GitHub/Android/TestAdapters/app/src/main/res/values-v11/styles.xml",
+                    "file": "C:\\Users\\dordonez\\GitHub\\Android\\TestAdapters\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
