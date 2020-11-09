@@ -24,13 +24,13 @@ public class ListActivity extends Activity {
 
 		ListView lv = (ListView) findViewById(R.id.lv);
 
-		String[] elementos = new String[] {"Pedro", "Pablo", "Anita", "X", "Y", "Z"};
+		String[] elementos = new String[] {"Pedro", "Pablo", "Anita", "X", "Y", "Z", "1", "222"};
 		
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.textview_adaptador, elementos);
 		
 		lv.setAdapter(adapter);
 		
-		lv.setOnItemClickListener(listItemClick); 
+		lv.setOnItemClickListener(listItemClick);
 	}
 
 	private OnItemClickListener listItemClick = new OnItemClickListener() {
@@ -38,7 +38,7 @@ public class ListActivity extends Activity {
 	    	TextView t = (TextView) v;
 	        Toast.makeText(ListActivity.this, "Click: " + t.getText(), Toast.LENGTH_SHORT).show();
 	    }
-	};	
+	};
 	
 	public void buttonClick(View v) {
 		Intent intent = new Intent(this, GridActivity.class);
