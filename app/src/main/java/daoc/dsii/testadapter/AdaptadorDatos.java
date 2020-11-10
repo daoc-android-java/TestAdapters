@@ -24,13 +24,9 @@ public class AdaptadorDatos extends ArrayAdapter<Drawable> {
 
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
-		if(convertView == null) {
-			LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-			convertView = inflater.inflate(resource, null);			
-		}
-		ImageView iv = (ImageView) convertView;
+		ImageView iv = new ImageView(getContext());
 		iv.setImageDrawable(objects[position]);
-		return convertView;
+		return iv;
 	}
 	
 }

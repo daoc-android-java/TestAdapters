@@ -31,6 +31,7 @@ public class ListActivity extends Activity {
 		lv.setAdapter(adapter);
 		
 		lv.setOnItemClickListener(listItemClick);
+
 	}
 
 	private OnItemClickListener listItemClick = new OnItemClickListener() {
