@@ -24,7 +24,7 @@ public class ListActivity extends Activity {
 
 		ListView lv = (ListView) findViewById(R.id.lv);
 
-		String[] elementos = new String[] {"Pedro", "Pablo", "Anita", "X", "Y", "Z", "1", "222"};
+		String[] elementos = new String[] {"Pedro", "Pablo", "Anita", "X", "Y", "Z"};
 		
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.textview_adaptador, elementos);
 		
